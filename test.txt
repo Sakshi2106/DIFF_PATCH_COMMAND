@@ -1,0 +1,15 @@
+./diff -t file1 file2
+./diff -c file1 file2
+./diff -u file1 file2
+./diff -w file1 file2
+./diff -b file1 file2
+./diff -r file1 file2
+./diff -i file1 file2
+./diff file1 file2
+./diff -c fil1 file2>file.patch
+./patch file1 file.patch
+./diff -u fil1 file2>file.patch
+./patch file1 file.patch
+
+if there is any problem using this command user can ask for by --help option
+file1 and file2 can be given from data uploaded;
